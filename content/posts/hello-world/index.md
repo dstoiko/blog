@@ -4,8 +4,6 @@ date: "2019-11-20"
 author: "dstoiko"
 ---
 
-# Hello World
-
 This is the first post I write in a while... I had started writing a personal blog around 3 years ago. I wrote a couple of articles at the end of 2016 in order to showcase some data analysis, visualization and code work I'd done, then left it aside for quite a while as I was starting to work full-time on [Moona](https://getmoona.com) and things were getting very busy. A lot of things have happened since then and I want to put some stories and thoughts into writing for whoever might find it interesting or helpful.
 
 # Making a blog
