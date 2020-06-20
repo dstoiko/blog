@@ -2,7 +2,7 @@
 title: "Moona: Part II - HAX"
 date: "2019-11-23"
 author: "dstoiko"
-tags: [moona, shenzhen, hardware]
+tags: [moona, shenzhen, hardware, prototyping]
 ---
 
 _This is the second article from a series on the story of Moona. Check out the other ones here [Moona: Start-up Story Series](/posts/moona-0-series)._
@@ -138,10 +138,10 @@ For the server, we needed a simple and reliable infrastructure, to handle app in
 
 Throughout the program, we set out to build our prototypes in very short cycles, which allowed us to test as much as we could, either on ourselves or on volunteers amongst other HAX teams. We tried to keep a pace of at least one short UX testing session per week, where we would ask people from the office to test each time a different part of the product and give us feedback. We also organized full-night tests at our apartment building, which was useful even though the logistics were cumbersome with fragile prototypes. We had a few water leaks along the way, but it gave us priceless insights that guided development.
 
-## Key Learnings
+# Key Learnings
 
 Here are some key takeaways we got from our HAX experience, which are good to keep in mind and that I wish I knew before starting...
  
-1. **Keep it simple**: we tended to underestimate complexity when starting new projects with an optimistic mindset, so always simplifying any design or technical decision saves a lot of bandwidth and headaches down the road
-2. **Think it through**: we tended to rush towards a "workable" solution too often in the development process, and that lead us to waste time when we needed to do revisions or adapt our prototype, so spending one extra day thinking things through is usually well worth it, so it's useful to go against urgency and pressure to gain efficiency
-3. **Test everything you can**: although we did test a lot of things, there's always something that slips through the net if you're not careful enough, so going through a simple but exhaustive test checklist avoids bad assumptions that mess everything up
+1. **Keep it simple**: we tended to underestimate complexity when starting new projects with an optimistic mindset, so always simplifying any design or technical decision saves a lot of bandwidth and headaches down the road.
+2. **Think it through**: we tended to rush towards a "workable" solution too often in the development process, and that lead us to waste time when we needed to do revisions or adapt our prototype, so spending one extra day thinking things through is usually well worth it, so it's useful to go against urgency and pressure to solve problems more effectively.
+3. **Test everything you can**: although we did test a lot of things, there's always something that slips through the net if you're not careful enough, so going through a simple but exhaustive test checklist avoids bad assumptions that mess everything up.
