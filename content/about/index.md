@@ -13,3 +13,9 @@ In this blog you will find:
 - Blog posts about hardware and software development, and other tech things
 - Random thoughts (maybe)
 - A showcase of personal projects
+
+You can find me on:
+
+[GitHub](https://github.com/dstoiko)
+
+[LinkedIn](https://linkedin.com/in/dstoiko)
