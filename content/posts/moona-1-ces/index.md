@@ -11,9 +11,9 @@ _This is the first article from a series on the story of Moona. Check out the ot
 
 I joined Moona around the time we were selected to take part in the Consumer Electronics Show (CES). My co-founder Coline had taken part in a French start-up contest organized by [La French Tech](https://lafrenchtech.com), the French label / movement to promote technology start-ups in France and abroad. Thanks to them, we were part of the official delegation of [28 French start-ups at Eureka Park](https://www.maddyness.com/2016/09/21/frenchtech-28-startups-francaises-ces-2017-las-vegas/), the innovative start-up companies' section of CES. We were thrilled to be given this great opportunity and set out to prepare for this show.
 
-# Preparing the device
+# Making it work
 
-We were quite nervous to have such exposure for the company for the first time, to media, investors, industry experts... We needed to show we were up to the task, but the stage we were at was still very early. We had already done some work on making a fully working prototype, so we needed to make sure it would work well for the demo, otherwise we would have nothing to show at our booth!
+We were quite nervous to have such exposure for the company for the first time, to media, investors, industry experts... We needed to show we were up to the task, but we were still at a very early stage of product development. We had already done some work on making a fully working prototype, so we needed to make sure it would work well for the demo, otherwise we would have nothing to show at our booth!
 
 We had to showcase 2 devices: a working prototype, made out of off-the-shelves parts and assembled by hand, to show the final function of the product, and a smaller, cuter "looks-like" prototype which would let people imagine how the final product would look once we've manufactured it.
 
