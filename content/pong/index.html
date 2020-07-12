@@ -1,0 +1,30 @@
+<html>
+	<head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <script src="wasm_exec.js"></script>
+            <script src="pako_inflate.min.js"></script>
+            <script>
+                window.addEventListener("DOMContentLoaded", async () => {
+                    const go = new Go();
+                    const url = "/pong/main.wasm.gz";
+                    const pako = window.pako;
+                    let wasm = pako.ungzip(await (await fetch(url)).arrayBuffer());
+                    // A fetched response might be decompressed twice on Firefox.
+                    // See https://bugzilla.mozilla.org/show_bug.cgi?id=610679
+                    if (wasm[0] === 0x1f && wasm[1] === 0x8b) {
+                        wasm = pako.ungzip(wasm);
+                    }
+                    const result = await WebAssembly.instantiate(wasm, go.importObject)
+                        .catch((err) => {
+                            console.error(err);
+                        });
+                    document.getElementById("loading").remove();
+                    go.run(result.instance);
+                });
+            </script>
+            <p id="loading">Loading...</p>
+        </body>
+    </head>
+</html>
