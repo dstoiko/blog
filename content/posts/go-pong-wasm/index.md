@@ -7,7 +7,7 @@ tags: [personal, software, gaming, go, webassembly]
 
 # TL;DR
 
-For those of you in a hurry: I made a version of the classic Pong game using Go and WebAssembly. I then embedded that game on my website. here is the game, enjoy:
+For those of you in a hurry: I made a version of the classic Pong game using Go and WebAssembly. I then embedded that game on my website. Warning: it __works only on desktop now (no handling of touch)__. Here is the game, enjoy:
 
 {{< ebiten src="/pong/index.html" >}}
 
