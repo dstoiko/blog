@@ -9,7 +9,7 @@ tags: [personal, software, gaming, go, webassembly]
 
 For those of you in a hurry: I made a version of the classic Pong game using Go and WebAssembly. I then embedded that game on my website. Warning: it __works only on desktop now (no handling of touch)__. Here is the game, enjoy:
 
-{{< ebiten src="/pong/index.html" >}}
+{{< ebiten src="pong/index.html" >}}
 
 # Why WebAssembly
 
@@ -182,7 +182,7 @@ The last thing I needed to do was to embed the three files into my blog. I'm usi
 Then I just added the files for serving the game in a new page folder inside my blog directory and referenced to it as the `src` tag of my shortcode:
 
 ```
-{{ < ebiten src="/pong/index.html" > }}
+{{ < ebiten src="{{ .Site.BaseURL }}/pong/index.html" > }}
 ```
 
 # Closing words

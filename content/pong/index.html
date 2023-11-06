@@ -8,7 +8,7 @@
             <script>
                 window.addEventListener("DOMContentLoaded", async () => {
                     const go = new Go();
-                    const url = "/pong/main.wasm.gz";
+                    const url = "main.wasm.gz";
                     const pako = window.pako;
                     let wasm = pako.ungzip(await (await fetch(url)).arrayBuffer());
                     // A fetched response might be decompressed twice on Firefox.

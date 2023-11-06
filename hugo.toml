@@ -1,4 +1,4 @@
-baseurl = "/"
+baseURL = "https://dstoiko.github.io/blog"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
